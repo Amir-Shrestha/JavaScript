@@ -1,0 +1,11 @@
+
+console.log(document.querySelectorAll('[data-number]')) // nodelist
+console.log(document.getElementsByTagName("button")) //htmlcollection
+
+- An HTMLCollection is a live collection: If you add a <li> element to a list in the DOM, the list in the HTMLCollection will also change.
+- A NodeList is a static collection: If you add a <li> element to a list in the DOM, the list in NodeList will not change.
+
+- The getElementsByClassName() and getElementsByTagName() methods return an HTMLCollection.
+- The querySelector() and querySelectorAll() methods return a NodeList.
+
+- 

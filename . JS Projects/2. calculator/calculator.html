@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="wrapper">
+        <p style="color: aliceblue; width: 100%;"><b>CASIO Calculator</b></p>
+        <div class="view">
+            <input type="text" id="input-view" name="name3" disabled>
+        </div>
+        <div class="key-field" name="key-field">
+            <input type="button" class="key" value="1" onclick="click_key(1)">
+            <input type="button" class="key" value="2" onclick="click_key(2)">
+            <input type="button" class="key" value="3" onclick="click_key(3)">
+            <input type="button" class="key clear" value="C" onclick="clear_all()">
+            <input type="button" class="key del" value="&#8592" onclick="back_slash()">
+
+            <input type="button" class="key" value="4" onclick="click_key(4)">
+            <input type="button" class="key" value="5" onclick="click_key(5)">
+            <input type="button" class="key" value="6" onclick="click_key(6)">
+            <input type="button" class="key operator" value="−" onclick="click_key('-')">
+            <input type="button" class="key operator" value="+" onclick="click_key('+')">
+
+            <input type="button" class="key" value="7" onclick="click_key(7)">
+            <input type="button" class="key" value="8" onclick="click_key(8)">
+            <input type="button" class="key" value="9" onclick="click_key(9)">
+            <input type="button" class="key operator" value="÷" onclick="click_key('/')">
+            <input type="button" class="key operator" value="×" onclick="click_key('*')">
+
+            <input type="button" class="key operator" value="(" onclick="click_key('(')">
+            <input type="button" class="key operator" value=")" onclick="click_key(')')">
+            <input type="button" class="key operator" value="." onclick="click_key('.')">
+            <button type="button" class="key operator" onclick="click_key('^')" id="power" disabled></button>
+            <input type="button" class="key operator" value="%" onclick="click_key('*(1/100)*')">
+
+            <input type="button" class="key zero" value="0" onclick="click_key(0)">
+            <input type="button" class="key zero" value="00" onclick="click_key('00')">
+            <input type="button" class="key zero" value="000" onclick="click_key('000')">
+            <input type="button" class="key" id="equalsto" value="=" onclick="result()">
+            <!-- <input type="button" class="key" id="equalsto" value="=" onclick="name3.value=eval(name3.value)"> -->
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>

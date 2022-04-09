@@ -1,0 +1,10 @@
+- universal selector
+- html_tag selector
+- css_id selector
+- css_class selector
+- grouping selector
+
+# Pattern:
+    - selectors are patterns
+    - selectors & attribute & pseudo-class are patterns
+    - 

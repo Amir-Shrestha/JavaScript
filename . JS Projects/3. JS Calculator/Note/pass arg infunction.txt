@@ -1,0 +1,3 @@
+var text = "apple";
+document.getElementById("test").setAttribute('onclick', `dispaly(${text})`);
+document.getElementById("test").setAttribute('onclick', "dispaly(text)");

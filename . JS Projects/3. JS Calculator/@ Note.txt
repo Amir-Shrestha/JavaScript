@@ -1,0 +1,6 @@
+# In script;
+    - first thing that we have to think about is that, how are we goona store all the information like(previousOperand, currentOperand, operator)? ===> Easiest ways to do that is to use Class.
+    - list out all the operation that our Calculator(class) can perform: add, subtract, division, multiplication, equals-to, all-clear, delete.
+    - 
+
+# 

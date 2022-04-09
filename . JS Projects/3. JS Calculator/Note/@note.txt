@@ -1,0 +1,24 @@
+1. <script src="script.js" defer></script> <!-- defer attribute inside script tag makes or script load after our entire page is parsed. -->
+
+2. Class property&methods is not shown in browser's debugger.
+
+3. undefined vs empty
+
+4. copy same value to two variables?
+
+5. if(operand === ".") return;
+
+6. parseFloat(this.previousOperandText);
+
+7.  switch (this.operation){
+        case '+':
+            computation = prev + current;
+            break;
+        default:
+            return
+    }
+
+8. this.currentOperandText = this.currentOperandText.toString().slice(0, -1);
+
+9. 34 min
+

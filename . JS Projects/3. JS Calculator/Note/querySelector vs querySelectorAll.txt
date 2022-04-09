@@ -1,0 +1,40 @@
+# document.querySelector("selector"): The querySelector() method returns the first element that matches a CSS selector.
+# document.querySelectorAll("selector"): The querySelectorAll() method returns a NodeList of all elements that matches a selector.
+# Both method throws a SYNTAX_ERR exception if the selector(s) is invalid.
+------------------------------------------------------------------------------------------------------------
+# document.querySelector("css_selector");
+    - The querySelector() method returns the first element that matches a CSS selector.
+
+
+# document.querySelector("[attributes]");
+    - The querySelector() method returns the first element that matches a CSS selector.
+
+
+# document.querySelector("css_selector"); //css_selector: #id, .class
+# document.querySelector("tagName"); //tagename
+# document.querySelector("[attributes]");
+
+# Notes:
+    - document.getElementByID(*id*);
+    - document.getElementsByClassName(*class*);
+    - document.getElementsByTagName(*tag*);
+
+    - document.querySelectorAll('[property]'); // All with attribute named "property"
+    - document.querySelectorAll('[property="value"]'); // All with attribute:"property" set to "value" exactly.
+    - document.querySelectorAll('span[property]'); //  This finds all elements with the attribute property. It would be better to specify a tag name if possible:
+
+# Selecting elements:
+    - The CSS Selectors Tutorial
+    - The CSS Selectors Reference
+    - The JavaScript Node List Tutorial
+
+    # QuerySelector Methods:
+        - The Element querySelector() Method
+        - The Element querySelectorAll() Method
+        - The Document querySelector() Method
+        - The Document querySelectorAll() Method
+
+    # GetElement Methods:
+        - The Document getElementById() Method
+        - The Document getElementsByTagName() Method
+        - The Document getElementsByClassName() Method

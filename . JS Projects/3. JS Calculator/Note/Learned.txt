@@ -1,0 +1,6 @@
+- HTML data- attribute.
+- querySelector a data- aatribute.
+- CSS linear-gradient.
+- CSS Grid.
+- CSS Flex.
+- 

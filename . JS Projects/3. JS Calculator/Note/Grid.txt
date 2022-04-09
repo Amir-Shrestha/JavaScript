@@ -1,0 +1,23 @@
+- Grid: जालो, intersecting spaced parallel horizontal & parallel line.
+
+- Grid Layout: The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+
+- Grid Elements: A grid layout consists of a parent element, with one or more child elements.
+    i.e:
+        <div class="grid-container-parent">
+            <div class="grid-item-child">1</div>
+            <div class="grid-item-child">2</div>
+            <div class="grid-item-child">3</div>
+        </div>
+
+- Initialization of Grid: An HTML element becomes a grid container when its css display property is set to grid or inline-grid.
+
+- grid vs inline-grid;
+
+- Grid Columns & Rows.
+
+- Grid Gaps: column-gap, row-gap, gap.
+
+- Grid Lines: grid-column-start, grid-column-end, grid-row-start, grid-row-end.
+
+- 

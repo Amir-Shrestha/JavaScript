@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(255, 254, 218);
+}
+.wrapper {
+  background-color: black;
+  /* max-width: 35%; */
+  margin: auto;
+  /* color: rgb(255, 255, 255); */
+  font-family: "Arial", Sans-serif;
+  padding: 20px;
+  margin-top: 4%;
+  border-radius: 20px;
+  box-shadow: 0 0 30px 10px rgb(178, 230, 233);
+}
+.view {
+  background-color: black;
+  border-bottom: 2px solid rgb(213, 204, 140);
+  text-align: right;
+}
+#input-view {
+  /* background-color: red; */
+  margin: 0;
+  padding: 8px 8px;
+  /* margin-bottom: 3vh; */
+  font-size: 40px;
+  color: white;
+  background-color: rgb(147, 147, 147);
+  border: none;
+  text-align: right;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  text-shadow: 2px 0px 0px black;
+}
+.key-field {
+  /* background-color: purple; */
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 85px 85px 85px 85px 85px;
+  text-align: center;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.key {
+  border-radius: 20px;
+  font-size: 28px;
+  background-color: rgb(179, 198, 211);
+  font-weight: bold;
+}
+#equalsto {
+  grid-column: 4 / span 2;
+}
+.key:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  /* font-size: 40px;
+        box-sizing: border-box; */
+}
+.clear {
+  background-color: rgb(213, 38, 38);
+}
+.clear:hover {
+  color: rgb(255, 87, 87);
+}
+.del {
+  background-color: rgb(255, 166, 1);
+}
+.del:hover {
+  color: rgb(255, 191, 72);
+}
+.operator {
+  background-color: rgb(52, 113, 255);
+}
+.operator:hover {
+  color: rgb(92, 212, 255);
+}
+#equalsto {
+  background-color: rgb(11, 83, 3);
+}
+#equalsto:hover {
+  box-shadow: 0 0 0 0.1rem rgb(7, 66, 1);
+  color: rgb(39, 182, 32);
+  background-color: black;
+}
+.zero {
+  background-color: rgb(138, 138, 169);
+}
